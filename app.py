@@ -663,10 +663,4 @@ with tab5:
 
 # Footer
 st.markdown("---")
-st.markdown("""
-    <div style='text-align: center; color: #888;'>
-        <p><b>Elite Options Analytics Platform</b> | Built for Nomura Global Markets</p>
-        <p>Advanced Derivatives Pricing • Risk Management • Portfolio Analytics</p>
-        <p>Technologies: Python • Streamlit • Black-Scholes • Monte Carlo • Real-time Data</p>
-    </div>
-""", unsafe_allow_html=True)
+
