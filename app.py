@@ -12,8 +12,8 @@ warnings.filterwarnings('ignore')
 
 # Page config
 st.set_page_config(
-    page_title="Elite Options Analytics Platform",
-    page_icon="📊",
+    page_title="Options Analytics Platform",
+    page_icon="",
     layout="wide"
 )
 
@@ -150,20 +150,20 @@ def asian_option_mc(S, K, T, r, sigma, option_type='call', n_simulations=50000):
     return option_price, std_error
 
 # Main App
-st.title("🎯 Elite Options Analytics Platform")
-st.markdown("### **Production-Grade Derivatives Pricing & Risk Management**")
-st.markdown("*Built for Nomura Global Markets - Algo Strategies & Derivatives Trading*")
+st.title("Elite Options Analytics Platform")
+st.markdown("### **Derivatives Pricing & Risk Management**")
+
 
 # Sidebar
-st.sidebar.header("⚙️ Configuration")
+st.sidebar.header(" Configuration")
 
 # Tab structure
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📈 Black-Scholes Pricer",
-    "🌐 Volatility Surface",
-    "🎲 Exotic Options",
-    "⚠️ Risk Dashboard",
-    "📊 Portfolio Greeks"
+    " Black-Scholes Pricer",
+    " Volatility Surface",
+    " Exotic Options",
+    " Risk Dashboard",
+    " Portfolio Greeks"
 ])
 
 # TAB 1: Black-Scholes Pricer
